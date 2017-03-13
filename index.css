@@ -1,0 +1,27 @@
+body {
+    /*background: black;*/
+    font-size: 100%;
+    font-family: Helvetica, sans-serf;
+}
+
+#container {
+    margin: 0 auto;
+    width: 95%;
+    padding: 0.625em 1% 1.5em;/* 10px÷16px 10px÷948, 24px÷16px*/
+}
+
+aside {
+    float: right;
+    margin-right: 2.5%; /*24/950*/
+    width: 31.5%;/*300÷950*/
+}
+
+.main {
+    float: left;
+    width: 63%; //600÷950
+}
+
+aside img, .main img{
+	width: 100%;
+	max-width: 100%;
+}
