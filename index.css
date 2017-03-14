@@ -28,3 +28,16 @@ aside img, .main img{
 	width: 100%;
 	max-width: 100%;
 }
+
+aside h2{
+	border-bottom: 2px gray solid ;
+}
+
+blockquote{
+	font-family: italic;
+}
+
+cite{
+	display: block;
+	color: gray;
+}
