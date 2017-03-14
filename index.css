@@ -11,14 +11,17 @@ body {
 }
 
 aside {
-    float: right;
-    margin-right: 2.5%; /*24/950*/
-    width: 31.5%;/*300÷950*/
+    /*float: right;*/
+    /*margin-right: 2.5%; /*24/950*/
+    width: 300px;/*300÷950*/
+    display: table-cell;
 }
 
 .main {
-    float: left;
-    width: 63%; //600÷950
+    /*float: left;*/
+    /*width: 63%; /*600÷950*/
+    display:table-cell;
+    padding-right: 5%;
 }
 
 aside img, .main img{
