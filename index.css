@@ -3,7 +3,19 @@ body {
     font-size: 100%;
     font-family: Helvetica, sans-serf;
 }
+header, footer{
+	background-color: gray;
+	color: wheat;
+}
 
+.navigation li{
+	width: 10%;
+	border: 1px gray solid;
+    border-radius: 30px;
+    margin: 5px 10px;
+    padding: 10px 40px;
+	display: inline-block;
+}
 #container {
     margin: 0 auto;
     width: 95%;
