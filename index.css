@@ -71,9 +71,23 @@ cite {
 }
 
 
+/*for bigger window*/
+
+@media all and (min-width: 1200px) {
+    .main section {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        -webkit-column-gap: 1.5em;
+           -moz-column-gap: 1.5em;
+                column-gap: 1.5em;
+    }
+}
+
+
 /* you should put the special css at the bottom of css to overwrite*/
 
-@media all and (max-width: 53.75em) {
+@media all and (max-width: 600px) {
     nav {
         color: white;
     }
