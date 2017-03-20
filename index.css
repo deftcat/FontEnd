@@ -1,55 +1,83 @@
 body {
-    /*background: black;*/
+    margin: 0;
     font-size: 100%;
     font-family: Helvetica, sans-serf;
 }
-header, footer{
-	background-color: gray;
-	color: wheat;
+
+header,
+footer {
+    background-color: gray;
+    color: wheat;
 }
 
-.navigation li{
-	width: 10%;
-	border: 1px gray solid;
+nav {
+    width: 100%;
+    padding: 1px;
+    background-color: brown;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigation li {
+    width: 60px;
+    border: 1px gray solid;
     border-radius: 30px;
     margin: 5px 10px;
     padding: 10px 40px;
-	display: inline-block;
+    display: inline-block;
 }
+
 #container {
     margin: 0 auto;
     width: 95%;
-    padding: 0.625em 1% 1.5em;/* 10px÷16px 10px÷948, 24px÷16px*/
+    padding: 0.625em 1% 1.5em;
+    /* 10px÷16px 10px÷948, 24px÷16px*/
 }
 
 aside {
     /*float: right;*/
     /*margin-right: 2.5%; /*24/950*/
-    width: 300px;/*300÷950*/
+    width: 300px;
+    /*300÷950*/
     display: table-cell;
 }
 
 .main {
     /*float: left;*/
     /*width: 63%; /*600÷950*/
-    display:table-cell;
+    display: table-cell;
     padding-right: 5%;
 }
 
-aside img, .main img{
-	width: 100%;
-	max-width: 100%;
+aside img,
+.main img {
+    width: 100%;
+    max-width: 100%;
 }
 
-aside h2{
-	border-bottom: 2px gray solid ;
+aside h2 {
+    border-bottom: 2px gray solid;
 }
 
-blockquote{
-	font-family: italic;
+blockquote {
+    font-family: italic;
 }
 
-cite{
-	display: block;
-	color: gray;
+cite {
+    display: block;
+    color: gray;
+}
+
+
+/* you should put the special css at the bottom of css to overwrite*/
+
+@media all and (max-width: 53.75em) {
+    nav {
+        color: white;
+    }
+    aside {
+        display: block;
+    }
 }
