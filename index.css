@@ -22,9 +22,9 @@ a {
 
 .navigation li {
     width: 60px;
-    border: 1px gray solid;
+    border-top: 1px gray solid;
     border-radius: 30px;
-    margin: 5px 10px;
+    /*margin: 5px 10px;*/
     padding: 10px 40px;
     display: inline-block;
 }
@@ -73,7 +73,7 @@ cite {
 
 /*for bigger window*/
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 75em) { /*1200px/16px*/
     .main section {
         -webkit-column-count: 2;
         -moz-column-count: 2;
@@ -87,7 +87,7 @@ cite {
 
 /* you should put the special css at the bottom of css to overwrite*/
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 37.5em) {
     nav {
         color: white;
     }
